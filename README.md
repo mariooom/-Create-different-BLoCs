@@ -10,7 +10,9 @@ This repository contains a simple Flutter application demonstrating the use of t
 - **BlocListener**: Shows a SnackBar when the counter reaches a specific value (e.g., 5).
 - **BlocConsumer**: Combines `BlocBuilder` and `BlocListener` in a single widget.
 
-##OutPut:
+## OutPut:
 
+### Dark Theme:  
 ![Screenshot 2025-01-22 010804](https://github.com/user-attachments/assets/c70d0dd4-b30e-416f-8591-6ec7d98f6b59)
+### Light Theme: 
 ![Screenshot 2025-01-22 010656](https://github.com/user-attachments/assets/2d9996c1-2bf7-44b3-b8b5-98857ee48c2d)
