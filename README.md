@@ -1,21 +1,18 @@
-<<<<<<< HEAD
-# -Create-different-BLoCs
-Dealing with different Types of Blocs.
-=======
-# bloc_task1
+# Flutter BLoC Tutorial
 
-A new Flutter project.
+This repository contains a simple Flutter application demonstrating the use of the BLoC (Business Logic Component) pattern for state management. The app includes a counter and a theme toggler, showcasing how to manage state using BLoC, `BlocBuilder`, `BlocListener`, and `BlocConsumer`.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Counter BLoC**: Manages an integer value and allows incrementing and decrementing the counter.
+- **Theme BLoC**: Toggles between light and dark themes, changing the primary color from blue (light theme) to green (dark theme).
+- **BlocBuilder**: Updates the UI whenever the counter value changes.
+- **BlocListener**: Shows a SnackBar when the counter reaches a specific value (e.g., 5).
+- **BlocConsumer**: Combines `BlocBuilder` and `BlocListener` in a single widget.
 
-A few resources to get you started if this is your first Flutter project:
+##OutPut:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 4faf4d5 (Create counter bloc and theme bloc)
+![Screenshot 2025-01-22 010715](https://github.com/user-attachments/assets/0b7f9447-586c-4353-8c30-d8c5d4f0a6b0)
+![Screenshot 2025-01-22 010732](https://github.com/user-attachments/assets/4ca75cbd-bfb7-4ef5-98df-6506f429b397)
+![Screenshot 2025-01-22 010804](https://github.com/user-attachments/assets/c70d0dd4-b30e-416f-8591-6ec7d98f6b59)
+![Screenshot 2025-01-22 010656](https://github.com/user-attachments/assets/2d9996c1-2bf7-44b3-b8b5-98857ee48c2d)
